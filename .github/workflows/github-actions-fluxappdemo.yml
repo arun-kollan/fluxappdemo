@@ -33,4 +33,4 @@ jobs:
           context: ./src
           platforms: linux/arm64
           push: true
-          tags: arun-kollan/fluxappdemo${{ steps.genhash.outputs.hash }}
+          tags: arunkollan/fluxappdemo${{ steps.genhash.outputs.hash }}
